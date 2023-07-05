@@ -7,14 +7,15 @@ def add (a, b):
 # multiplication function
 def multiply (a, b):
     return a*b
-# get the user input
-a=int(input("Please enter the value of a: "))
-b=int(input("Please enter the value of b: "))
+  # get the user input
+if __name__=='__main__': 
+  a=int(input("Please enter the value of a: "))
+  b=int(input("Please enter the value of b: "))
 
-sum=add(a,b)
-product=multiply(a,b)
-z=sum+20
+  sum=add(a,b)
+  product=multiply(a,b)
+  z=sum+20
 
-print ("The sum is",sum)
-print("sum plus 20 is", z)
-print ("The product is", multiply)
+  print ("The sum is",sum)
+  print("sum plus 20 is", z)
+  print ("The product is", multiply)
